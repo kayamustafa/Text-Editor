@@ -3,7 +3,7 @@ Theme selection implemented with abstract factory pattern.
 
 Only one scene and text area can be created due to singleton pattern.
 
-# todo
+# to-do
 - Menubar processes with command pattern
 - Aligning text with strategy pattern
 
