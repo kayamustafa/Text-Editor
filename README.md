@@ -17,7 +17,7 @@ Design patterns used in the project are:
 - Theme selection
 <img src="https://user-images.githubusercontent.com/67211558/184509623-05ea11f5-5802-4b9c-9971-0d5e8093a541.png" width=30% height=30%>
 
-- Themes (Default and Hacker)
+- Themes
 
 <img src="https://user-images.githubusercontent.com/67211558/184554430-efb09257-6024-47d9-83e9-872abf6806d6.png" width=100% height=100%>
 
