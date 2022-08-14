@@ -1,0 +1,5 @@
+#left-area *.text { -fx-text-alignment: left; }
+
+#center-area *.text { -fx-text-alignment: center; }
+
+#right-area *.text { -fx-text-alignment: right; }

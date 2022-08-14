@@ -5,4 +5,5 @@ module com.texteditor {
 
     opens com.texteditor to javafx.fxml;
     exports com.texteditor.main;
+
 }

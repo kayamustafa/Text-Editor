@@ -5,12 +5,13 @@ import com.texteditor.abstractfactoryhacker.*;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.ChoiceDialog;
-import javafx.scene.control.Menu;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.io.File;
+
 public class Main extends Application {
+
+
     public static void main(String[] args){
         launch(args);
     }
@@ -31,9 +32,11 @@ public class Main extends Application {
             factory = new DefaultTextEditorFactory();
 
 
-        Scene scene = TextEditor.createTextEditor(factory);
-
+        Scene scene = TextEditor.createTextEditor(factory, stage);
+        File f = new File("src/main/resources/style.css");
+        scene.getStylesheets().add("file:///" + f.getAbsolutePath().replace("\\", "/"));
         stage.setScene(scene);
+        stage.setTitle("Text Editor");
         stage.show();
     }
 }
